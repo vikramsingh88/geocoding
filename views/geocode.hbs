@@ -1,0 +1,9 @@
+<ul class="list-group">
+    {{# each geocodes}}
+        <li class="list-group-item">
+            <h4>{{this.address}}</h4>
+            <b>Latitude : </b>{{this.lat}}
+            <b>Longitude : </b>{{this.lon}}
+        </li>
+    {{/each}}  
+</ul>
